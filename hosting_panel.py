@@ -67,7 +67,7 @@ except Exception as _docker_import_error:
 # ────────────────────────────────────────────────────────────────────────────
 
 # ─── CONFIG ──────────────────────────────────────────────────────────────
-TOKEN = "8860939583:AAH93aBxI9Eek1tT_fjoEfrvzlp9D6Pm1cM"
+TOKEN = "8860939583:AAGIpWpEuRPwm-GUg0lzH6pb0Zc90wKbfww"
 OWNER_ID = 7265678519
 ADMIN_ID = 7265678519
 YOUR_USERNAME = "@Xalonexdev03"
