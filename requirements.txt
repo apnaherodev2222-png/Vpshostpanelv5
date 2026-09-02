@@ -1,4 +1,0 @@
-aiogram
-GitPython
-docker
-python-dotenv
