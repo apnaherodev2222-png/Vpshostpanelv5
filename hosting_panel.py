@@ -69,7 +69,7 @@ except Exception as _docker_import_error:
 from error_analyzer import analyze_error, apply_auto_fix
 
 # ─── CONFIG ──────────────────────────────────────────────────────────────
-TOKEN = "8860939583:AAH93aBxI9Eek1tT_fjoEfrvzlp9D6Pm1cM"
+TOKEN = "8860939583:AAEcbTW1q36Ery0TwR9cF_eZGwiaJ5TlVLc"
 OWNER_ID = 7265678519
 ADMIN_ID = 7265678519
 YOUR_USERNAME = "@Xalonexdev03"
