@@ -1,0 +1,25 @@
+1.
+# Kya container ke andar ho?
+cat /proc/1/cgroup | head -5
+# Agar "docker" ya "containerd" dikhe to tum khud ek container ke andar ho
+
+# Docker daemon manually start karne ki koshish karo
+sudo dockerd &
+
+1.Ab ye steps karo:
+Verify karo daemon reachable hai:
+
+    docker ps
+
+Empty list dikhni chahiye (error nahi).
+
+
+
+2.Base images pull karo:
+
+docker pull python:3.11-slim
+docker pull node:20-slim
+
+3.Bot restart karo (naye terminal/tab me, kyunki dockerd & wala terminal busy hai):
+
+python3 hosting_panel.py
